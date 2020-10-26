@@ -1,0 +1,114 @@
+html {
+  background-color: #e2e2e2;
+}
+
+#board-container {
+  background-color: #bbada0;
+  width: 450px;
+  height: 450px;
+  padding: 3px;
+}
+
+.screen {
+  position: absolute;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  width: 456px;
+  height: 256px;
+
+}
+
+.winning {
+  background: rgba(252, 255, 102, 0.3);
+
+}
+
+.losing {
+  background: rgba(0, 0, 0, 0.3);
+
+}
+
+#board {
+  width: 450px;
+  height: 450px;
+  display: flex; 
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  background-color: #bbada0;
+}
+
+.tile {
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.tile-0 {
+  background: rgba(238, 228, 218, 0.35);
+}
+
+.tile-2 {
+  background-color: #eee4da;
+}
+
+.tile-4 {
+  background-color: #eee1c9;
+}
+
+.tile-8 {
+  background-color: #f3b27a;
+  color: white;
+}
+
+.tile-16 {
+  background-color: #f69664;
+  color: white;
+  font-size: 50px;
+}
+
+.tile-32 {
+  background-color: #f77c5f;
+  color: white;
+  font-size: 50px;
+}
+
+.tile-64 {
+  background-color: #f75f3b;
+  color: white;
+  font-size: 50px;
+}
+
+.tile-128 {
+  background-color: #edd073;
+  color: white;
+  font-size: 40px;
+}
+
+.tile-256 {
+  background-color: #edcc62;
+  color: white;
+  font-size: 40px;
+}
+
+.tile-512 {
+  background-color: #edc950;
+  color: white;
+  font-size: 40px;
+}
+
+.tile-1024 {
+  background-color: #edc53f;
+  color: white;
+  font-size: 30px;
+}
+
+.tile-2048 {
+  background-color: #edc22e;
+  color: white;
+  font-size: 30px;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.5555555556), inset 0 0 0 1px rgba(255, 255, 255, 0.3333333333);
+}
